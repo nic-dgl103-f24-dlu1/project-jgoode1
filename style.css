@@ -65,7 +65,36 @@ nav a {
   margin-left: auto;
 }
 
-/* Temp img width for layout */
+/* Hero */
+.hero {
+  height: 70vh;
+  background-image: url("images/red-carpet-limo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-overlay {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/***************** Temp img width for layout ********************/
 img {
-    max-width: 100vw;
+  max-width: 100vw;
 }
