@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ambassador Transportation</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
@@ -12,7 +16,6 @@
       <h1>Ambassador Transportation</h1>
       <!-- Navigation -->
       <nav>
-        <div class="menu-label">Menu</div>
         <ul id="nav-items">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About Us</a></li>
@@ -29,7 +32,36 @@
         Professional limousine services for corporate events, weddings, and
         airport transfers.
       </p>
-      <img src="images/red-carpet-limo.jpg" alt="Luxury black limousine in front of building, on red carpet" />
+      <img
+        src="images/red-carpet-limo.jpg"
+        alt="Luxury black limousine in front of building, on red carpet"
+      />
     </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <h3>Corporate Events</h3>
+          <p>Impress your clients with our premium transportation services.</p>
+        </div>
+        <div class="card">
+          <h3>Weddings</h3>
+          <p>Arrive in style on your special day.</p>
+        </div>
+        <div class="card">
+          <h3>Airport Transfers</h3>
+          <p>Reliable and luxurious airport transportation.</p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
   </body>
 </html>
