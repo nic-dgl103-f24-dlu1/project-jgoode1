@@ -104,7 +104,9 @@ nav a {
   background: #fff;
 }
 
-#services h2 {
+#services h2,
+#fleet h2,
+#cta h2 {
   font-size: 3rem;
   font-family: "Pattaya";
   letter-spacing: 1.5px;
@@ -135,6 +137,38 @@ nav a {
 
 .card p {
   font-size: 1.4rem;
+}
+
+/* Fleet Section */
+#fleet {
+  text-align: center;
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+.fleet-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.fleet-card {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fleet-card img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.fleet-card h3 {
+  margin-top: 1rem;
+  font-size: 1.6rem;
 }
 
 /***************** Temp img width for layout ********************/
