@@ -140,6 +140,12 @@ nav a {
 }
 
 /* Fleet Section */
+#fleet {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: #f9f9f9;
+  }
+
 /* Fleet Section Carousel */
 .carousel {
     position: relative;
@@ -194,7 +200,7 @@ nav a {
   .carousel-arrow.right {
     right: 10px;
   }
-  
+
 /* CTA Section */
 #cta {
     text-align: center;
