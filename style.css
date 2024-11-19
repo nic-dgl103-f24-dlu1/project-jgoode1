@@ -217,7 +217,6 @@ nav a {
     cursor: pointer;
   }
   
-  /* Footer */
 /* Footer Section */
 footer {
     background: #000;
@@ -266,6 +265,11 @@ footer {
   
   .footer-content a:hover {
     text-decoration: underline;
+  }
+
+  .footer-content p:nth-last-child(1) {
+    font-size: 1rem;
+    color: #ccc;
   }
 
 /***************** Temp img width for layout ********************/
