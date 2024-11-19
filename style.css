@@ -218,11 +218,54 @@ nav a {
   }
   
   /* Footer */
-  footer {
-    text-align: center;
-    padding: 1rem;
+/* Footer Section */
+footer {
     background: #000;
     color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .footer-content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-content .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-content .social-icons a {
+    color: #ffd700;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-content .social-icons a:hover {
+    transform: scale(1.2);
+  }
+  
+  .footer-content p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+  
+  .footer-content a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
   }
 
 /***************** Temp img width for layout ********************/
