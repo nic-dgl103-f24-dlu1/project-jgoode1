@@ -410,4 +410,22 @@ footer {
   .hero h1 {
     font-size: 4rem;
   }
+  /* Large About Section */
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin: 4rem 2rem;
+  }
+
+  .about-content p {
+    max-width: 50%;
+  }
+
+  .about-links {
+    flex-direction: row;
+    gap: 2rem;
+    /* margin-left: auto; */
+  }
 }
