@@ -17,6 +17,13 @@ body {
   color: #000;
 }
 
+/* Global Style for Paragraphs */
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+    color: #333;
+  }
+
 /* Header */
 header {
   display: flex;
@@ -119,6 +126,12 @@ nav {
 }
 
 /* Services Section */
+#about-preview,
+#services,
+#fleet {
+  padding: 10rem 2rem;
+}
+
 #services h2,
 #fleet h2,
 #cta h2 {
@@ -310,6 +323,7 @@ nav {
 
 #cta p {
   font-size: 1.6rem;
+  color: #fff;
   margin-bottom: 2rem;
   max-width: 600px;
   margin-left: auto;
@@ -323,8 +337,8 @@ nav {
 }
 
 #cta button {
-  background: #daa520;
-  color: #000;
+  background: #b8860b;
+  color: #fff;
   border: none;
   padding: 1rem 2rem;
   font-size: 1.6rem;
@@ -334,7 +348,7 @@ nav {
 }
 
 #cta button:hover {
-  background: #b8860b;
+  background: #daa520;
   transform: scale(1.05);
 }
 
@@ -378,7 +392,7 @@ footer {
 
 .footer-content p {
   font-size: 1.4rem;
-  line-height: 1.6;
+  color: #fff;
 }
 
 .footer-content a {
@@ -416,8 +430,18 @@ footer {
     height: 70vh;
   }
 
-  #services {
-    padding: 15rem 4rem;
+  #about-preview,
+  #services,
+  #fleet {
+    padding: 10rem 4rem;
+  }
+
+  /* Tablet-Desktop Typography */
+  #services h2,
+  .about-content h2,
+  #fleet h2,
+  #cta h2 {
+    font-size: 3.6rem;
   }
 
   .service-cards {
@@ -452,14 +476,6 @@ footer {
 
   .hero h1 {
     font-size: 4.8rem;
-  }
-
-  /* Desktop Typography */
-  #services h2,
-  .about-content h2,
-  #fleet h2,
-  #cta h2 {
-    font-size: 3.6rem;
   }
 
   /* Desktop About Section */
