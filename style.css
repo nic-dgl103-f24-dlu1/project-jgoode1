@@ -457,9 +457,9 @@ footer {
 .red-carpet {
   position: relative;
   width: 0%;
-  height: 30px;
-  background-color: #b22222; /* Red carpet color */
-  margin: 2rem auto;
+  height: 10px;
+  background-color: #E82A32; /* Red carpet color */
+  margin: 1rem auto;
   animation: rollOut 2s ease-out forwards;
 }
 
