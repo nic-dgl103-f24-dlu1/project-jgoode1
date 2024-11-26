@@ -487,7 +487,7 @@ footer {
   background: rgba(0, 0, 0, 0.8);
   justify-content: center;
   align-items: center;
-  z-index: 99;
+  z-index: 1000;
 }
 
 .lightbox-content {
@@ -527,6 +527,27 @@ footer {
 .lightbox .next {
   right: 10px;
 }
+
+/* Full About Section */
+.about-details {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.about-details h2 {
+  font-family: "Pattaya", sans-serif;
+  font-size: 3rem;
+  color: #b8860b;
+  margin-bottom: 2rem;
+}
+
+.about-details p {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
 
 /**************************************************************     
             --------   MEDIA QUERIES   --------
