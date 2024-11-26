@@ -415,8 +415,10 @@ footer {
 **************************************************************/
 /* About Teaser Section */
 .about-teaser {
-  background: #f9f9f9;
-  padding: 4rem 2rem;
+  position: relative;
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #fff 55%, #f9f9f9 45%);
+  color: #000;
   text-align: center;
 }
 
@@ -430,7 +432,8 @@ footer {
 .about-teaser p {
   font-size: 1.6rem;
   line-height: 1.8;
-  margin-bottom: 2rem;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
 }
 
 .about-teaser .btn {
@@ -440,13 +443,35 @@ footer {
   font-size: 1.6rem;
   border-radius: 5px;
   text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .about-teaser .btn:hover {
   background: #daa520;
+  transform: scale(1.05);
 }
 
 /* Fleet Section */
+
+/* Red Carpet Animation */
+.red-carpet {
+  position: relative;
+  width: 0%;
+  height: 30px;
+  background-color: #b22222; /* Red carpet color */
+  margin: 2rem auto;
+  animation: rollOut 2s ease-out forwards;
+}
+
+@keyframes rollOut {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 #fleet {
   text-align: center;
   padding: 5rem 2rem;
