@@ -557,11 +557,12 @@ footer {
 }
 
 .fleet-details {
+  margin-top: 1rem;
   padding: 2rem;
 }
 
 .fleet-details h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: "Pattaya", sans-serif;
   color: #333;
   margin-bottom: 1rem;
@@ -570,13 +571,19 @@ footer {
 .fleet-details ul {
   list-style: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #555;
   line-height: 1.8;
 }
 
 .fleet-details ul li {
   margin-bottom: 0.5rem;
+}
+
+.fleet-card li:last-child {
+  font-size: 1.4rem;
+  color: #555;
+  font-style: italic;
 }
 
 .fleet-gallery {
@@ -593,7 +600,7 @@ footer {
   max-width: 300px;
   width: 100%;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 0 0 0.5rem 0.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   aspect-ratio: 16 / 9; 
 }
@@ -673,6 +680,7 @@ footer {
   line-height: 1.8;
   margin-bottom: 1.5rem;
   color: #333;
+  word-wrap: break-word;
 }
 
 
