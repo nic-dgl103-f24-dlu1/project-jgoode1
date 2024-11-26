@@ -476,6 +476,63 @@ footer {
   text-align: center;
   padding: 5rem 2rem;
 }
+#fleet h2 {
+  text-align: center;
+  font-family: "Pattaya", sans-serif;
+  font-size: 3rem;
+  color: #b8860b;
+  margin-bottom: 2rem;
+}
+
+.fleet-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.fleet-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 400px;
+  width: 100%;
+}
+
+.fleet-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.fleet-card img {
+  width: 100%;
+  height: auto;
+}
+
+.fleet-details {
+  padding: 2rem;
+}
+
+.fleet-details h3 {
+  font-size: 2rem;
+  font-family: "Pattaya", sans-serif;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.fleet-details ul {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.fleet-details ul li {
+  margin-bottom: 0.5rem;
+}
 
 .fleet-gallery {
   display: flex;
