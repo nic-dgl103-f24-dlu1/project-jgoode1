@@ -413,6 +413,39 @@ footer {
 /**************************************************************     
             --------   ABOUT PAGE   --------
 **************************************************************/
+/* About Teaser Section */
+.about-teaser {
+  background: #f9f9f9;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.about-teaser h2 {
+  font-family: "Pattaya", sans-serif;
+  font-size: 3rem;
+  color: #b8860b;
+  margin-bottom: 1.5rem;
+}
+
+.about-teaser p {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.about-teaser .btn {
+  background: #b8860b;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.about-teaser .btn:hover {
+  background: #daa520;
+}
+
 /* Fleet Section */
 #fleet {
   text-align: center;
