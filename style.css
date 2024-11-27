@@ -899,5 +899,23 @@ footer {
 /**************************************************************     
             --------   ABOUT PAGE - DESKTOP   --------
 **************************************************************/
+header {
+  height: 25vh;
+}
 
+.about-content {
+  padding-top: 5rem;
+}
+
+.fleet-card {
+  width: 70%;
+}
+
+.fleet-details h3 {
+  font-size: 2.6rem;
+}
+
+.fleet-details ul li {
+  font-size: 1.8rem;
+}
 }
