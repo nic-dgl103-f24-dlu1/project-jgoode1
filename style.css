@@ -479,6 +479,8 @@ footer {
   line-height: 1.8;
   max-width: 600px;
   margin: 0 auto 2rem auto;
+  text-align: justify;
+  word-wrap: break-word;
 }
 
 .about-teaser .btn {
@@ -680,17 +682,16 @@ footer {
   line-height: 1.8;
   margin-bottom: 1.5rem;
   color: #333;
+  text-align: justify;
   word-wrap: break-word;
 }
 
-
-/**************************************************************     
+/**************************************************************
+***************************************************************     
             --------   MEDIA QUERIES   --------
+***************************************************************
 **************************************************************/
-
-/* Medium Media Query - Tablet */
 @media (min-width: 768px) {
-  /* Medium Nav */
   #nav-items {
     display: flex !important;
     flex-direction: row;
@@ -702,8 +703,9 @@ footer {
   .toggle {
     display: none; /* Hide hamburger menu */
   }
-
-  /* Medium Hero */
+/**************************************************************     
+            --------   HOMEPAGE - TABLET  --------
+**************************************************************/
   .hero {
     height: 70vh;
   }
@@ -714,7 +716,7 @@ footer {
     padding: 10rem 4rem;
   }
 
-  /* Tablet-Desktop Typography */
+  /* Typography */
   #services h2,
   .about-content h2,
   #fleet h2,
@@ -732,9 +734,16 @@ footer {
     flex: 1 1 calc(33.33% - 2rem);
     max-width: 300px;
   }
+
+/**************************************************************     
+            --------   ABOUT PAGE - TABLET  --------
+**************************************************************/
+  
 }
 
-/* Large Media Query - Desktop */
+/**************************************************************     
+            --------   HOMEPAGE - DESKTOP   --------
+**************************************************************/
 @media (min-width: 1200px) {
   header {
     height: 30vh;
@@ -756,7 +765,7 @@ footer {
     font-size: 4.8rem;
   }
 
-  /* Desktop About Section */
+  /* About Section */
   .about-content {
     display: flex;
     justify-content: space-between;
@@ -774,7 +783,7 @@ footer {
     gap: 2rem;
   }
 
-  /* Desktop CTA section */
+  /* CTA section */
   #cta {
     display: flex;
     align-items: center;
@@ -790,4 +799,9 @@ footer {
     flex-direction: row;
     gap: 4rem;
   }
+
+/**************************************************************     
+            --------   ABOUT PAGE - DESKTOP   --------
+**************************************************************/
+
 }
