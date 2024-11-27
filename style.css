@@ -19,10 +19,10 @@ body {
 
 /* Global Style for Paragraphs */
 p {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.8;
-    color: #333;
-  }
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.8;
+  color: #333;
+}
 
 /* Header */
 header {
@@ -505,7 +505,7 @@ footer {
   position: relative;
   width: 0%;
   height: 10px;
-  background-color: #E82A32; /* Red carpet color */
+  background-color: #e82a32; /* Red carpet color */
   margin: 1rem auto;
   animation: rollOut 2s ease-out forwards;
 }
@@ -604,7 +604,7 @@ footer {
   object-fit: cover;
   border-radius: 0 0 0.5rem 0.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  aspect-ratio: 16 / 9; 
+  aspect-ratio: 16 / 9;
 }
 
 .fleet-gallery img:hover {
@@ -692,6 +692,10 @@ footer {
 ***************************************************************
 **************************************************************/
 @media (min-width: 768px) {
+  header {
+    height: 20vh;
+  }
+
   #nav-items {
     display: flex !important;
     flex-direction: row;
@@ -703,17 +707,17 @@ footer {
   .toggle {
     display: none; /* Hide hamburger menu */
   }
-/**************************************************************     
+  /**************************************************************     
             --------   HOMEPAGE - TABLET  --------
 **************************************************************/
   .hero {
-    height: 70vh;
+    height: 80vh;
   }
 
   #about-preview,
   #services,
   #fleet {
-    padding: 10rem 4rem;
+    padding: 6rem 4rem 10rem 4rem;
   }
 
   /* Typography */
@@ -738,7 +742,99 @@ footer {
 /**************************************************************     
             --------   ABOUT PAGE - TABLET  --------
 **************************************************************/
+  .hero-overlay {
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    text-align: right;
+    max-width: 80%;
+  }
+
+  .hero-overlay h1 {
+    font-size: 3.2rem;
+  }
+
+  .hero-overlay p {
+    display: none;
+  }
+
+  #fleet {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: #f9f9f9;
+  }
   
+  #fleet h2 {
+    font-family: "Pattaya", sans-serif;
+    font-size: 3rem;
+    color: #b8860b;
+    margin-bottom: 3rem;
+  }
+  
+  /* Fleet Cards: Horizontal Layout */
+  .fleet-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .fleet-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 300px;
+    width: 90%;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .fleet-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .fleet-card img {
+    max-width: 40%;
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .fleet-details {
+    flex: 1;
+    padding: 2rem;
+    text-align: left;
+  }
+  
+  .fleet-details h3 {
+    font-size: 2rem;
+    font-family: "Pattaya", sans-serif;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .fleet-details ul {
+    list-style: none;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  .fleet-details ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .fleet-details ul li:last-child {
+    font-size: 1.4rem;
+    color: #777;
+    font-style: italic;
+  }
 }
 
 /**************************************************************     
