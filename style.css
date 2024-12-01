@@ -739,7 +739,7 @@ footer {
     max-width: 300px;
   }
 
-/**************************************************************     
+  /**************************************************************     
             --------   ABOUT PAGE - TABLET  --------
 **************************************************************/
   .hero-overlay {
@@ -763,14 +763,14 @@ footer {
     padding: 5rem 2rem;
     background: #f9f9f9;
   }
-  
+
   #fleet h2 {
     font-family: "Pattaya", sans-serif;
     font-size: 3rem;
     color: #b8860b;
     margin-bottom: 3rem;
   }
-  
+
   /* Fleet Cards: Horizontal Layout */
   .fleet-gallery {
     display: flex;
@@ -778,7 +778,7 @@ footer {
     gap: 2rem;
     align-items: center;
   }
-  
+
   .fleet-card {
     display: flex;
     flex-direction: row;
@@ -791,32 +791,32 @@ footer {
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
-  
+
   .fleet-card:hover {
     transform: scale(1.02);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   }
-  
+
   .fleet-card img {
     max-width: 40%;
-    height: auto; 
-    object-fit: cover; 
+    height: auto;
+    object-fit: cover;
     border-radius: 0 8px 8px 0;
   }
-  
+
   .fleet-details {
     flex: 1;
     padding: 2rem;
     text-align: left;
   }
-  
+
   .fleet-details h3 {
     font-size: 2rem;
     font-family: "Pattaya", sans-serif;
     color: #333;
     margin-bottom: 1rem;
   }
-  
+
   .fleet-details ul {
     list-style: none;
     padding: 0;
@@ -825,15 +825,22 @@ footer {
     color: #555;
     line-height: 1.8;
   }
-  
+
   .fleet-details ul li {
     margin-bottom: 0.5rem;
   }
-  
+
   .fleet-details ul li:last-child {
     font-size: 1.4rem;
     color: #777;
     font-style: italic;
+  }
+
+  .about-details p {
+    margin: 2rem 0;
+    padding: 0 5rem;
+    text-align: start;
+    word-wrap: normal;
   }
 }
 
@@ -896,26 +903,30 @@ footer {
     gap: 4rem;
   }
 
-/**************************************************************     
+  /**************************************************************     
             --------   ABOUT PAGE - DESKTOP   --------
 **************************************************************/
-header {
-  height: 25vh;
-}
+  header {
+    height: 25vh;
+  }
 
-.about-content {
-  padding-top: 5rem;
-}
+  .about-content {
+    padding-top: 5rem;
+  }
 
-.fleet-card {
-  width: 70%;
-}
+  .fleet-card {
+    width: 70%;
+  }
 
-.fleet-details h3 {
-  font-size: 2.6rem;
-}
+  .fleet-details h3 {
+    font-size: 2.6rem;
+  }
 
-.fleet-details ul li {
-  font-size: 1.8rem;
-}
+  .fleet-details ul li {
+    font-size: 1.8rem;
+  }
+
+  .about-details p {
+    padding: 0 8rem;
+  }
 }
