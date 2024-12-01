@@ -711,6 +711,20 @@ footer {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
+/* Contact Form */
+#contact-form {
+  padding: 5rem 2rem;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+#contact-form h2 {
+  font-family: "Pattaya", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #b8860b;
+}
+
 /**************************************************************
 ***************************************************************     
             --------   MEDIA QUERIES   --------
