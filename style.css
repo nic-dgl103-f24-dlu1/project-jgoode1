@@ -686,7 +686,6 @@ footer {
   word-wrap: break-word;
 }
 
-
 /**************************************************************     
             --------   CONTACT PAGE   --------
 **************************************************************/
@@ -761,6 +760,34 @@ footer {
 
 #contact-form button:hover {
   background: #daa520;
+}
+
+/* Google Maps */
+#google-maps {
+  padding: 5rem 2rem;
+  border-radius: 10px 40px;
+}
+
+#google-maps h2 {
+  font-family: "Pattaya", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #b8860b;
+}
+
+.map-container {
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  border-radius: inherit;
 }
 
 /**************************************************************
@@ -919,6 +946,11 @@ footer {
     text-align: start;
     word-wrap: normal;
   }
+
+/**************************************************************     
+            --------   CONTACT PAGE - TABLET   --------
+**************************************************************/
+
 }
 
 /**************************************************************     
@@ -1006,4 +1038,8 @@ footer {
   .about-details p {
     padding: 0 10rem;
   }
+
+/**************************************************************     
+            --------   CONTACT PAGE - DESKTOP   --------
+**************************************************************/
 }
