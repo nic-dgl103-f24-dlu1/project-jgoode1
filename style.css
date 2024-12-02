@@ -950,7 +950,41 @@ footer {
 /**************************************************************     
             --------   CONTACT PAGE - TABLET   --------
 **************************************************************/
+  /* Hero Section */ 
+  .hero-contact {
+    height: 60vh;
+    justify-content: flex-start;
+    padding: 0 4rem;
+    text-align: left;
+  }
 
+  .hero-contact h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-contact p {
+    font-size: 2rem;
+    max-width: 70%;
+  }
+
+  /* Contact Form */
+  #contact-form {
+    padding: 6rem 4rem;
+  }
+
+  #contact-form h2 {
+    font-size: 3.6rem;
+  }
+
+  /* Google Maps Section */
+  #google-maps {
+    padding: 6rem 4rem;
+  }
+
+  .map-container {
+    max-width: 900px;
+  }
 }
 
 /**************************************************************     
