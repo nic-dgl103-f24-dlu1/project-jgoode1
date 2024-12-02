@@ -232,7 +232,7 @@ nav {
 }
 
 .about-links .btn {
-  background: #DEA30D;
+  background: #FFD601;
   color: #000;
   text-decoration: none;
   padding: 0.8rem 1.5rem;
@@ -252,6 +252,11 @@ nav {
   text-align: center;
   padding: 5rem 2rem;
   background: #f9f9f9;
+}
+
+#fleet h2{
+  color: #000;
+  text-shadow: 0 2px 4px rgba(222, 163, 13, 0.6);
 }
 
 /* Fleet Section Carousel */
@@ -531,7 +536,7 @@ footer {
   text-align: center;
   font-family: "Pattaya", sans-serif;
   font-size: 3rem;
-  color: #DEA30D;
+  color: #000;
   margin-bottom: 2rem;
 }
 
@@ -880,8 +885,7 @@ footer {
 
   #fleet h2 {
     font-family: "Pattaya", sans-serif;
-    font-size: 3rem;
-    color: #DEA30D;
+    font-size: 3.6rem;
     margin-bottom: 3rem;
   }
 
