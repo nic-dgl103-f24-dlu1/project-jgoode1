@@ -773,7 +773,12 @@ footer {
   font-size: 3rem;
   margin-bottom: 2rem;
   text-align: center;
-  color: #b8860b;
+  text-shadow: 0 2px 4px rgba(184, 134, 11, 0.6);
+  color: #000;
+}
+
+.map-description {
+  display: none;
 }
 
 .map-container {
@@ -979,12 +984,24 @@ footer {
 
   /* Google Maps Section */
   #google-maps {
+    display: flex;
+    align-items: center;
     padding: 6rem 4rem;
   }
 
-  .map-container {
-    max-width: 900px;
+  #google-maps h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
   }
+
+  .map-description {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    color: #333;
+    line-height: 1.8;
+  }
+
 }
 
 /**************************************************************     
