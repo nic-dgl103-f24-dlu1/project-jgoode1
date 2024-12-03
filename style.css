@@ -796,7 +796,6 @@ footer {
 
 .map-container {
   display: flex;
-  max-width: 1200px;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -1000,18 +999,18 @@ footer {
 
 /* Google Maps Section */
 #google-maps {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content */
   align-items: center;
-  padding: 6rem 4rem;
+  padding: 10rem 8rem;
 }
 
 #google-maps h2 {
   font-family: "Pattaya", sans-serif;
   font-size: 4rem;
   color: #000;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   text-shadow: 0 2px 4px rgba(222, 163, 13, 0.6);
 }
 
@@ -1023,22 +1022,11 @@ footer {
   gap: 1.5rem;
 }
 
-.map-description {
-  display: block;
-  padding: 1rem 3rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
-  color: #333;
-  line-height: 1.8;
-  text-align: justify;
-}
-
 .map-container {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   border-radius: 10px; 
   overflow: hidden;
 }
-
 }
 
 /**************************************************************     
@@ -1152,4 +1140,21 @@ footer {
 /**************************************************************     
             --------   CONTACT PAGE - DESKTOP   --------
 **************************************************************/
+#google-maps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 6rem 4rem;
+}
+
+.map-description {
+  display: block;
+  padding: 1rem 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+}
 }
