@@ -9,16 +9,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <!-- Icon library -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pattaya&display=swap"
       rel="stylesheet"
     />
+    <!-- Fonts -->
   </head>
   <body>
     <header>
       <img src="images/logo.svg" alt="Limousine custom logo" class="logo" />
+      <!-- My custom logo -->
       <!-- Navigation -->
       <nav>
         <ul id="nav-items">
@@ -27,6 +30,7 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
+        <!-- Hamburger icon -->
       </nav>
     </header>
 
@@ -35,6 +39,7 @@
       <div class="hero-content">
         <h1>Arrive in Elegance, Travel in Luxury</h1>
         <p class="hidden">
+          <!-- Initially hidden on mobile, now hidden completely -->
           Experience premium limousine services tailored for your special
           moments
         </p>
@@ -44,6 +49,7 @@
     <!-- About Section -->
     <section id="about-preview" class="about">
       <div class="red-carpet"></div>
+      <!-- My 'red carpet' rollOut -->
       <div class="about-content">
         <h2>About Us</h2>
         <p>
@@ -63,6 +69,7 @@
     <section id="services">
       <h2>Services</h2>
       <div class="service-cards">
+        <!-- Each card links to the quote form -->
         <a href="contact.html#contact-form" class="card">
           <img src="images/business.svg" alt="Black business suitcase icon" />
           <h3>Corporate Events</h3>
@@ -85,6 +92,7 @@
     <section id="fleet">
       <h2>Ambassador Fleet</h2>
       <div class="carousel">
+        <!-- Carousel to add interactivity to page -->
         <div class="carousel-wrapper">
           <div class="carousel-card">
             <img src="images/black-limo-exterior.jpg" alt="Luxury Sedan" />
@@ -107,6 +115,7 @@
             <h3>Semi-Transport Limousine</h3>
           </div>
         </div>
+        <!-- Buttons that work with Javascript -->
         <button class="carousel-arrow left" onclick="prevSlide()">
           &#10094;
         </button>
@@ -125,6 +134,7 @@
       </p>
       <div class="cta-buttons">
         <button onclick="window.location.href='contact.html';">Book Now</button>
+        <!-- Alt way to link to other pages -->
         <button onclick="window.location.href='contact.html#contact-form';">
           Get a Quote
         </button>
@@ -136,9 +146,16 @@
       <div class="footer-content">
         <h3>Follow Us</h3>
         <div class="social-icons">
-          <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-          <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-          <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+          <!-- Real links to fix webaim report -->
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a href="https://www.x.com" target="_blank"
+            ><i class="fa fa-twitter"></i
+          ></a>
         </div>
         <p>
           &copy; 2024 Ambassador Transportation. All rights reserved | Contact
@@ -146,8 +163,10 @@
           <a href="mailto:info@ambassadortransportation.net"
             >info@ambassadortransportation.net</a
           >
+          <!-- Direct email link -->
         </p>
         <p>
+          <!-- Small school project disclaimer -->
           This is a fictional website that was designed and coded as an
           educational exercise. It is not intended to be seen outside of the
           class environment. None of the content and images were approved by the
@@ -155,7 +174,7 @@
         </p>
       </div>
     </footer>
-
+    <!-- Javascript for nav button and carousel -->
     <script>
       function showNav() {
         var element = document.getElementById("nav-items");
