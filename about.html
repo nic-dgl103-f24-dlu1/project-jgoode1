@@ -36,9 +36,11 @@
     <main>
       <!-- Hero Section -->
       <section id="hero" class="hero-video">
+        <!-- Video background -->
         <video autoplay muted loop class="hero-video-content">
           <source src="videos/happy-moments.mp4" type="video/mp4" />
           Your browser does not support the video tag.
+          <!-- Backup sentence for browser issues -->
         </video>
         <div class="hero-overlay">
           <h1>"Every Journey Begins with a Story"</h1>
@@ -48,6 +50,7 @@
       <!-- About Us Section -->
       <section id="about-preview" class="about-teaser">
         <div class="red-carpet"></div>
+        <!-- Red carpet rollOut -->
         <div class="about-content">
           <h2>Our Story</h2>
           <p>
@@ -56,6 +59,7 @@
             proud to provide experiences, not just rides.
           </p>
           <a href="#full-about" class="btn">Learn More About Us</a>
+          <!-- Link to full about section below -->
         </div>
       </section>
 
@@ -65,12 +69,14 @@
         <h2>The Fleet</h2>
         <div class="fleet-gallery">
           <div class="fleet-card">
+            <!-- Lightbox images -->
             <img
               src="images/black-limo-exterior.jpg"
               alt="Luxury Sedan"
               class="fleet-item"
               onclick="openLightbox();showSlide(2)"
             />
+            <!-- Goes to appropriate image on click -->
             <div class="fleet-details">
               <h3>Luxury Sedan</h3>
               <ul>
@@ -145,7 +151,7 @@
             </div>
           </div>
         </div>
-        <!-- Lightbox -->
+        <!-- Lightbox Modal -->
         <div id="lightbox" class="lightbox">
           <span class="close" onclick="closeLightbox()">&times;</span>
           <div class="lightbox-content">
@@ -175,10 +181,13 @@
               alt="2009 Lincoln Bright Pink Limousine"
             />
             <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <!-- Prev button -->
             <a class="next" onclick="changeSlide(1)">&#10095;</a>
+            <!-- Next button -->
           </div>
         </div>
         <div id="fleet-table">
+          <!-- Web table for pricing -->
           <h2>Compare Our Fleet</h2>
           <table>
             <thead>
@@ -253,9 +262,15 @@
       <div class="footer-content">
         <h3>Follow Us</h3>
         <div class="social-icons">
-          <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-          <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
-          <a href="https://www.x.com" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a href="https://www.x.com" target="_blank"
+            ><i class="fa fa-twitter"></i
+          ></a>
         </div>
         <p>
           &copy; 2024 Ambassador Transportation. All rights reserved | Contact
@@ -272,7 +287,7 @@
         </p>
       </div>
     </footer>
-
+    <!-- Nav button and lightbox script -->
     <script>
       function showNav() {
         var element = document.getElementById("nav-items");
