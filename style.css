@@ -7,7 +7,7 @@
 
 /* Base Styles */
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; /* Font Trick */
 }
 
 body {
@@ -34,7 +34,7 @@ header {
 }
 
 .logo {
-  max-width: 50%;
+  max-width: 50%; /* Stop logo from getting too big */
 }
 
 /* Navigation */
@@ -80,7 +80,7 @@ nav {
   color: #000;
 }
 
-.toggle {
+.toggle { /* Hamburger Icon */
   font-size: 2.4rem;
   background: none;
   border: none;
@@ -90,12 +90,12 @@ nav {
 }
 
 .hidden {
-  display: none !important;
+  display: none !important; /* Hide links in nav while hamburger present */
 }
 
 /* Hero */
 .hero {
-  height: 50vh;
+  height: 50vh; /* Iniitially was taller to fit screen but couldn't see animation below */
   background-image: url("images/red-carpet-limo.jpg");
   background-size: cover;
   background-position: center;
@@ -103,11 +103,11 @@ nav {
   display: flex;
   color: white;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-end; /* Heading in bottom right of hero */
 }
 
 .hero-content h1 {
-  font-family: "Pattaya";
+  font-family: "Pattaya"; /* Cursive font for fancy appeal */
   font-size: 2.8rem;
   letter-spacing: 1px;
 }
@@ -138,7 +138,7 @@ nav {
   font-size: 2.8rem;
   margin-bottom: 1rem;
   color: #000;
-  text-shadow: 0 2px 4px rgba(222, 163, 13, 0.6);
+  text-shadow: 0 2px 4px rgba(222, 163, 13, 0.6); /* Gold glow behind */
 }
 
 .about-content p {
@@ -161,12 +161,12 @@ nav {
   padding: 0.8rem 1.5rem;
   font-size: 1.6rem;
   border-radius: 5px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth ease into transistion */
+  box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4); /* Darker shadows against lighter backgrounds */ 
 }
 
 .about-links .btn:hover {
-  background: #daa520;
+  background: #daa520; /* Slightly darker on hover */
   transform: scale(1.05);
 }
 
@@ -174,7 +174,7 @@ nav {
 #about-preview,
 #services,
 #fleet {
-  padding: 10rem 2rem;
+  padding: 10rem 2rem; /* Keep comfortable spacing in sections */
 }
 
 #services h2,
@@ -204,7 +204,7 @@ nav {
 
 .service-cards {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Initially stacked on top of each other */
   gap: 2rem;
   justify-content: center;
 }
@@ -221,7 +221,7 @@ nav {
 }
 
 .card img {
-  width: 60px;
+  width: 60px; /* Icon sizing */
   height: auto;
   margin-bottom: 1rem;
 }
@@ -240,7 +240,7 @@ nav {
 /* Highlighted Card (Middle One) */
 .card.highlight {
   background: #faf4e8;
-  border-color: #dea30d;
+  border-color: #dea30d; /* Make center card pop a little */
 }
 
 .card:hover {
@@ -264,9 +264,9 @@ nav {
 .carousel {
   position: relative;
   width: 100%;
-  max-width: 700px;
+  max-width: 700px; /* Keep from getting too large */
   margin: 3rem auto;
-  overflow: hidden;
+  overflow: hidden; /* Keep content from spilling out */
   border-radius: 10px;
 }
 
@@ -296,14 +296,14 @@ nav {
 
 .carousel-arrow {
   position: absolute;
-  top: 50%;
+  top: 50%; /* Halfway down the image */
   transform: translateY(-50%);
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   border: none;
-  cursor: pointer;
+  cursor: pointer; /* Pointer on carousel */ 
   padding: 1rem;
-  z-index: 10;
+  z-index: 10; /* Keep carousel on top of everything on page */
   border-radius: 50%;
 }
 
@@ -321,7 +321,7 @@ nav {
   padding: 4rem 2rem;
   background: #000;
   color: #fff;
-  border-top: 1px solid #dea30d;
+  border-top: 1px solid #dea30d; /* Neat line for division */
 }
 
 #cta h2 {
@@ -354,7 +354,7 @@ nav {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  box-shadow: 8px 6px 8px rgba(255, 255, 255, 0.4);
+  box-shadow: 8px 6px 8px rgba(255, 255, 255, 0.4); /* Whitish glow on dark backgrounds */
 }
 
 #cta button:hover {
@@ -415,7 +415,7 @@ footer {
   color: #dea30d;
 }
 
-.footer-content p:nth-last-child(1) {
+.footer-content p:nth-last-child(1) { /* Target last paragraph for tiny font (disclaimer) */
   font-size: 1rem;
   color: #ccc;
 }
@@ -427,7 +427,7 @@ footer {
 /* Hero Video */
 .hero-video {
   position: relative;
-  height: 60vh;
+  height: 60vh; /* Most of viewport with header, leave room for red carpet animation */
   display: flex;
   justify-content: center;
   align-items: end;
@@ -441,7 +441,7 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.6);
+  filter: brightness(0.6); /* Slightly darker overlay for video */
 }
 
 .hero-overlay {
@@ -472,7 +472,7 @@ footer {
 .about-teaser {
   position: relative;
   padding: 6rem 2rem;
-  background: linear-gradient(135deg, #fff 55%, #f9f9f9 45%);
+  background: linear-gradient(135deg, #fff 55%, #f9f9f9 45%); /* Angled background colour */
   color: #000;
   text-align: center;
 }
@@ -516,12 +516,12 @@ footer {
   position: relative;
   width: 0%;
   height: 10px;
-  background-color: #e82a32; /* Red carpet color */
+  background-color: #e82a32; /* Red carpet colour */
   margin: 1rem auto;
-  animation: rollOut 2s ease-out forwards;
+  animation: rollOut 2s ease-out forwards; /* Keyframe rollOut trigger */
 }
 
-@keyframes rollOut {
+@keyframes rollOut { /* Simple keyframe animation starts from middle, works it's way out */
   0% {
     width: 0%;
   }
@@ -555,13 +555,13 @@ footer {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 400px;
+  height: 400px; /* Maintain fixed size for cards */
   width: 100%;
 }
 
 .fleet-card:hover {
-  transform: scale(1.02);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02); /* Slight scale on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .fleet-card img {
@@ -605,7 +605,7 @@ footer {
   gap: 1.5rem;
   justify-content: center;
   align-items: center;
-  padding: 2rem 2rem 10rem 2rem;
+  padding: 2rem 2rem 10rem 2rem; /* Heavy padding below */
 }
 
 .fleet-gallery img {
@@ -615,7 +615,7 @@ footer {
   object-fit: cover;
   border-radius: 0 0 0.5rem 0.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 9; /* Keep the same ratio so cards stay even */
 }
 
 .fleet-gallery img:hover {
@@ -629,12 +629,12 @@ footer {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100%; /* Full screen */
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 1000; /* Ensure it's above everything else */
 }
 
 .lightbox-content {
@@ -649,7 +649,7 @@ footer {
 }
 
 .lightbox .close {
-  position: absolute;
+  position: absolute; /* Keep close button in corner */
   top: 10px;
   right: 20px;
   color: #fff;
@@ -659,7 +659,7 @@ footer {
 
 .lightbox .prev,
 .lightbox .next {
-  position: absolute;
+  position: absolute; /* Keep prev/next buttons in same spot */
   top: 50%;
   transform: translateY(-50%);
   font-size: 3rem;
@@ -668,7 +668,7 @@ footer {
 }
 
 .lightbox .prev {
-  left: 10px;
+  left: 10px; /* Distance to edge */
 }
 
 .lightbox .next {
@@ -691,7 +691,7 @@ footer {
 
 table {
   width: 85%;
-  border-collapse: collapse;
+  border-collapse: collapse; 
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
 }
@@ -705,7 +705,7 @@ td {
 }
 
 th {
-  background: #ffd601;
+  background: #ffd601; /* Keep with the theme */
   color: #000;
   font-weight: bold;
   text-align: center;
@@ -716,11 +716,11 @@ td {
 }
 
 tr:nth-child(even) td {
-  background: #f2f2f2;
+  background: #f2f2f2; /* Every even row */
 }
 
 table tr:hover td {
-  background: #fef7d9;
+  background: #fef7d9; /* On hover row is darkened */
 }
 
 /* Full About Section */
@@ -742,7 +742,7 @@ table tr:hover td {
   line-height: 1.8;
   margin-bottom: 1.5rem;
   color: #333;
-  text-align: justify;
+  text-align: justify; /* Space letters across line like a book */
   word-wrap: break-word;
 }
 
@@ -789,6 +789,7 @@ table tr:hover td {
   margin-top: 1rem;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
+
 /* Testimonials */
 #testimonials {
   text-align: center;
@@ -824,7 +825,7 @@ table tr:hover td {
 .testimonial-card img {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
+  border-radius: 50%; /* Round profile pictures */
   margin-bottom: 1rem;
 }
 
@@ -842,7 +843,7 @@ table tr:hover td {
 }
 
 .stars {
-  color: #ffd601;
+  color: #ffd601; /* Bright stars */
   font-size: 1.6rem;
 }
 
@@ -862,7 +863,7 @@ table tr:hover td {
 }
 
 #contact-form form {
-  max-width: 600px;
+  max-width: 600px; /* Keep form from getting too big */
   margin: 0 auto;
 }
 
@@ -880,7 +881,7 @@ table tr:hover td {
   padding: 1rem;
   margin-bottom: 2rem;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 5px; /* Slightly more square radius, keeping with a form shape */
   font-size: 1.4rem;
 }
 
@@ -915,7 +916,7 @@ table tr:hover td {
 }
 
 .map-description {
-  display: none;
+  display: none; /* None on mobile */
 }
 
 .map-container {
@@ -928,7 +929,7 @@ table tr:hover td {
 }
 
 .map-container iframe {
-  border-radius: inherit;
+  border-radius: inherit; /* 2 bugged corners not handling radius, issue with embedded map container, inherit fixes that */
 }
 
 /**************************************************************
@@ -938,11 +939,11 @@ table tr:hover td {
 **************************************************************/
 @media (min-width: 768px) {
   header {
-    height: 20vh;
+    height: 20vh; /* Make header narrower */
   }
 
   #nav-items {
-    display: flex !important;
+    display: flex !important; /* Ensure the nav elements reappear */
     flex-direction: row;
     gap: 3rem;
     background: none;
@@ -980,7 +981,7 @@ table tr:hover td {
   }
 
   .card {
-    flex: 1 1 calc(33.33% - 2rem);
+    flex: 1 1 calc(33.33% - 2rem); /* Use calc to space cards nicely */
     max-width: 300px;
   }
 
@@ -1062,7 +1063,7 @@ table tr:hover td {
     padding: 0;
     font-family: "Montserrat", sans-serif;
     font-size: 1.6rem;
-    color: #555;
+    color: #494949; /* Darken font a little for accessibility */
     line-height: 1.8;
   }
 
@@ -1072,7 +1073,7 @@ table tr:hover td {
 
   .fleet-details ul li:last-child {
     font-size: 1.4rem;
-    color: #777;
+    color: #515151; /* Darken font a little for accessibility */
     font-style: italic;
   }
 
@@ -1087,8 +1088,8 @@ table tr:hover td {
   .about-details p {
     margin: 2rem 0;
     padding: 0 5rem;
-    text-align: start;
-    word-wrap: normal;
+    text-align: start; /* Return spacing to normal on larger screens */
+    word-wrap: normal; /* Remove hyphens */
   }
 
   /**************************************************************     
@@ -1114,7 +1115,7 @@ table tr:hover td {
 
   /* Tewstimonials */
   .testimonial-cards {
-    flex-direction: row;
+    flex-direction: row; /* Switch direction of cards */
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -1178,7 +1179,7 @@ table tr:hover td {
   }
 
   .hero {
-    height: 70vh;
+    height: 70vh; /* Enought space for animation below */
   }
 
   .hero-content {
@@ -1252,7 +1253,7 @@ table tr:hover td {
   }
 
   #fleet h2 {
-    text-align: left;
+    text-align: left; /* Shift headings to left */
   }
 
   .fleet-gallery {
@@ -1296,7 +1297,7 @@ table tr:hover td {
     padding: 10rem 4rem;
   }
 
-  .form-container {
+  .form-container { /* Add form container on larger screens to form doesnt get swallowed in background */
     background-color: #fff;
     max-width: 800px;
     margin: 0 auto;
@@ -1338,7 +1339,7 @@ table tr:hover td {
   }
 
   .map-description {
-    display: block;
+    display: block; /* Display map description on desktop where there's space for it */
     padding: 1rem 3rem;
     font-family: "Montserrat", sans-serif;
     font-size: 1.6rem;
