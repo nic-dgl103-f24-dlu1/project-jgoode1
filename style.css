@@ -68,7 +68,7 @@ nav {
   font-family: "Pattaya", sans-serif;
   font-size: 1.8rem;
   text-decoration: none;
-  color: #FFD601;
+  color: #ffd601;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -76,7 +76,7 @@ nav {
 }
 
 #nav-items li a:hover {
-  background-color: #FFD601;
+  background-color: #ffd601;
   color: #000;
 }
 
@@ -194,7 +194,7 @@ nav {
 /* Highlighted Card (Middle One) */
 .card.highlight {
   background: #faf4e8;
-  border-color: #DEA30D;
+  border-color: #dea30d;
 }
 
 .card:hover {
@@ -232,7 +232,7 @@ nav {
 }
 
 .about-links .btn {
-  background: #FFD601;
+  background: #ffd601;
   color: #000;
   text-decoration: none;
   padding: 0.8rem 1.5rem;
@@ -254,7 +254,7 @@ nav {
   background: #f9f9f9;
 }
 
-#fleet h2{
+#fleet h2 {
   color: #000;
   text-shadow: 0 2px 4px rgba(222, 163, 13, 0.6);
 }
@@ -320,7 +320,7 @@ nav {
   padding: 4rem 2rem;
   background: #000;
   color: #fff;
-  border-top: 1px solid #DEA30D;
+  border-top: 1px solid #dea30d;
 }
 
 #cta h2 {
@@ -345,7 +345,7 @@ nav {
 }
 
 #cta button {
-  background: #FFD601;
+  background: #ffd601;
   color: #000;
   border: none;
   padding: 1rem 2rem;
@@ -396,7 +396,7 @@ footer {
 
 .footer-content .social-icons a:hover {
   transform: scale(1.2);
-  color: #DEA30D;
+  color: #dea30d;
 }
 
 .footer-content p {
@@ -411,7 +411,7 @@ footer {
 
 .footer-content a:hover {
   text-decoration: underline;
-  color: #DEA30D;
+  color: #dea30d;
 }
 
 .footer-content p:nth-last-child(1) {
@@ -494,14 +494,14 @@ footer {
 }
 
 .about-teaser .btn {
-  background: #FFD601;
+  background: #ffd601;
   color: #000;
   padding: 0.8rem 1.6rem;
   font-size: 1.6rem;
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4); 
+  box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
 }
 
 .about-teaser .btn:hover {
@@ -510,7 +510,6 @@ footer {
 }
 
 /* Fleet Section */
-
 /* Red Carpet Animation */
 .red-carpet {
   position: relative;
@@ -703,11 +702,31 @@ footer {
 **************************************************************/
 /* Hero Section - Contact */
 .hero-contact {
-  height: 50vh;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000;
+  background-color: #f9f9f9;
+  padding: 4rem 2rem;
+}
+
+.hero-layout {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.hero-image {
+  display: none;
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .hero-contact h1 {
@@ -731,10 +750,10 @@ footer {
 
 #contact-form h2 {
   font-family: "Pattaya", sans-serif;
-  font-size: 3rem;
+  font-size: 3.6rem;
   margin-bottom: 2rem;
-  color: #DEA30D;
-  text-shadow: 0 1px 1px #000;
+  color: #000;
+  text-shadow: 0 2px 4px rgba(222, 163, 13, 0.6);
 }
 
 #contact-form form {
@@ -761,7 +780,7 @@ footer {
 }
 
 #contact-form button {
-  background: #DEA30D;
+  background: #dea30d;
   color: white;
   padding: 1rem 2rem;
   border: none;
@@ -860,7 +879,7 @@ footer {
     max-width: 300px;
   }
 
-/**************************************************************     
+  /**************************************************************     
             --------   ABOUT PAGE - TABLET  --------
 **************************************************************/
   .hero-overlay {
@@ -967,10 +986,10 @@ footer {
     word-wrap: normal;
   }
 
-/**************************************************************     
+  /**************************************************************     
             --------   CONTACT PAGE - TABLET   --------
 **************************************************************/
-  /* Hero Section */ 
+  /* Hero Section */
   .hero-contact {
     height: 60vh;
     justify-content: flex-start;
@@ -997,36 +1016,36 @@ footer {
     font-size: 3.6rem;
   }
 
-/* Google Maps Section */
-#google-maps {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Center the content */
-  align-items: center;
-  padding: 10rem 8rem;
-}
+  /* Google Maps Section */
+  #google-maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content */
+    align-items: center;
+    padding: 10rem 8rem;
+  }
 
-#google-maps h2 {
-  font-family: "Pattaya", sans-serif;
-  font-size: 4rem;
-  color: #000;
-  margin-bottom: 4rem;
-  text-shadow: 0 2px 4px rgba(222, 163, 13, 0.6);
-}
+  #google-maps h2 {
+    font-family: "Pattaya", sans-serif;
+    font-size: 4rem;
+    color: #000;
+    margin-bottom: 4rem;
+    text-shadow: 0 2px 4px rgba(222, 163, 13, 0.6);
+  }
 
-.map-text {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  gap: 1.5rem;
-}
+  .map-text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+  }
 
-.map-container {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  border-radius: 10px; 
-  overflow: hidden;
-}
+  .map-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+  }
 }
 
 /**************************************************************     
@@ -1042,7 +1061,7 @@ footer {
   }
 
   .hero {
-    height: 90vh;
+    height: 70vh;
   }
 
   .hero-content {
@@ -1107,7 +1126,7 @@ footer {
     padding: 10rem 8rem;
   }
 
-  #fleet h2{
+  #fleet h2 {
     text-align: left;
   }
 
@@ -1137,24 +1156,65 @@ footer {
     padding: 0 10rem;
   }
 
-/**************************************************************     
+  /**************************************************************     
             --------   CONTACT PAGE - DESKTOP   --------
 **************************************************************/
-#google-maps {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  align-items: center;
-  padding: 6rem 4rem;
-}
+  .hero-image {
+    display: block;
+  }
 
-.map-description {
-  display: block;
-  padding: 1rem 3rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
-  color: #333;
-  line-height: 1.8;
-  text-align: justify;
-}
+  #contact-form {
+    padding: 10rem 4rem;
+  }
+
+  .form-container {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+  }
+
+  #contact-form h2 {
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  #contact-form button {
+    font-size: 1.8rem;
+    padding: 1.2rem 3rem;
+    background: #FFD601;
+    color: #000;
+    box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4); 
+  }
+
+  #contact-form button:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  #google-maps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    padding: 6rem 4rem;
+  }
+
+  .map-description {
+    display: block;
+    padding: 1rem 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    color: #333;
+    line-height: 1.8;
+    text-align: justify;
+  }
 }
