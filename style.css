@@ -1116,7 +1116,7 @@ table tr:hover td {
   .testimonial-cards {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
   }
 
   .testimonial-card {
